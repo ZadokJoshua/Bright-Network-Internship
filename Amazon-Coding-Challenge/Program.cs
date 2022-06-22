@@ -1,5 +1,4 @@
-﻿// AMAZON CODING CHALLENGE
-
+﻿// Phase 1
 // Initializing grid
 char[,] grid = new Char[10, 10];
 
@@ -34,8 +33,7 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine();
 }
 
-
-//char[] path = new char[grid.GetLength(0) * grid.GetLength(1)]; 
+ 
 string[] path = new string[grid.GetLength(0) * grid.GetLength(1)]; 
 int position = 0;
 
@@ -84,5 +82,4 @@ static void PrintPath(string[] path, int startPos, int endPos)
 }
 
 FindPath(0, 0, "S");
-
 
